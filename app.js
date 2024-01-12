@@ -10,9 +10,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: 'true' }));
 app.use(express.json());
 app.use(ssr);
+
+
 app.use('/', indexRouter);
 
-const PORT = 4000;
+const PORT = 4002;
 
 
 
