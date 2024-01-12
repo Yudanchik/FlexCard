@@ -1,15 +1,21 @@
 const React = require('react');
- function Layout({ title, children }) {
-return (
- <html lang="en">
- <head>
- <title>{title}</title>
- <link href="/style/bootstrap.css" rel="stylesheet" crossOrigin="anonymous"></link>
- <script defer href=""></script>
- </head>
- <body>{children}</body>
- </html>
- );
-};
+const NavBar = require('./NavBar');
 
-module.exports = Layout
+function Layout({ title, children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>{title}</title>
+        <link
+          href="/style/bootstrap.css"
+          rel="stylesheet"
+          crossOrigin="anonymous"
+        ></link>
+        <script defer src="/scripts/AddFormName.js" />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
+}
+
+module.exports = Layout;
