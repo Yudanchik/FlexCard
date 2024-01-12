@@ -1,6 +1,6 @@
-// console.log(123);
-// const btnSend = document.querySelector('.quest');
-// console.log(btnSend);
+console.log(123);
+const btnSend = document.querySelector('.quest');
+console.log(btnSend);
 
 // if (btnSend) {
 //   btnSend.addEventListener('click', async (event) => {
