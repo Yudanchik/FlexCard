@@ -1,6 +1,7 @@
 const React = require('react');
 const Layout = require('./Layout');
 
+
 function NavBar({ user }) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
