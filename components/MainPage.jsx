@@ -18,6 +18,7 @@ function MainPage() {
               Имя игрока
             </label>
             <input
+              name="name"
               type="text"
               className="form-control"
               id="exampleInputEmail1"
@@ -26,7 +27,7 @@ function MainPage() {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button  type="submit" className="btn btn-primary">
             Зарегистрироваться
           </button>
         </form>

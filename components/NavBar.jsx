@@ -1,7 +1,6 @@
 const React = require('react');
 const Layout = require('./Layout');
 
-
 function NavBar({ user }) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -18,7 +17,7 @@ function NavBar({ user }) {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/themes">
                 Theme
               </a>
             </li>

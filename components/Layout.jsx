@@ -11,7 +11,8 @@ function Layout({ title, children }) {
           rel="stylesheet"
           crossOrigin="anonymous"
         ></link>
-        <script defer src="/scripts/AddFormName.js" />
+        <script defer src="/scripts/regScript.js" />
+        <script defer src="/scripts/sendScript.js" />
       </head>
       <body>{children}</body>
     </html>
