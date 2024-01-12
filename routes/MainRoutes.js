@@ -6,7 +6,10 @@ const MainPage = require('../components/MainPage');
 // const HomePage = require('../components/HomePage');
 
 router.get('/', function (req, res) {
-  const html = res.renderComponent(MainPage, { title: 'Main page' });
+  const html = res.renderComponent(MainPage, {
+    title: 'Main page',
+    user: 'Daniil',
+  });
   res.send(html);
 });
 
