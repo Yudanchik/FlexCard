@@ -13,6 +13,7 @@ function ThemesPage({ title, themes, user }) {
           display: 'flex',
           pedding: '50px',
           justifyContent: 'space-around',
+          width: '1000px',
         }}
       >
         {themes.map((theme) => (
